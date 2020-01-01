@@ -1,0 +1,30 @@
+{
+  "name": "@suncin/eslint-config-typescript",
+  "version": "1.0.0",
+  "description": "A set of recommended eslint rules for typescript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "typescript"
+  ],
+  "author": "Jaime Leonardo Suncin Cruz <leosuncin@gmail.com",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leosuncin/eslint-config-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leosuncin/eslint-config-typescript/issues"
+  },
+  "homepage": "https://github.com/leosuncin/eslint-config-typescript#readme"
+}
