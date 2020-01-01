@@ -33,6 +33,21 @@ Then extends your eslint file (edit `.eslintrc.json`)
 }
 ```
 
+Other configs
+
+```json
+{
+  "extends": [
+    "typescript",
+    "typescript/security",
+    "typescript/jest"
+    "typescript/all"
+  ]
+}
+```
+
+Note: `typescript/all` include all the previous configs.
+
 ## Example configuration
 
 ```json
