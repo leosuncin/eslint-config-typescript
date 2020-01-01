@@ -13,11 +13,17 @@
   ],
   "author": "Jaime Leonardo Suncin Cruz <leosuncin@gmail.com",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.14.0",
+    "@typescript-eslint/parser": "^2.14.0"
+  },
   "devDependencies": {
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1"
+  },
+  "peerDependencies": {
+    "eslint": "*"
   },
   "repository": {
     "type": "git",
