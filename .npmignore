@@ -1,0 +1,11 @@
+.editorconfig
+.git
+.github
+.gitignore
+.huskyrc.json
+.lintstagedrc.json
+node_modules
+.npmignore
+package-lock.json
+.prettierignore
+.prettierrc.json
