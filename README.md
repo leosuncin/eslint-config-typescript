@@ -29,7 +29,7 @@ Then extends your eslint file (edit `.eslintrc.json`)
 
 ```json
 {
-  "extends": ["typescript"]
+  "extends": ["@suncin/typescript"]
 }
 ```
 
@@ -38,21 +38,21 @@ Other configs
 ```json
 {
   "extends": [
-    "typescript",
-    "typescript/security",
-    "typescript/jest"
-    "typescript/all"
+    "@suncin/typescript",
+    "@suncin/typescript/security",
+    "@suncin/typescript/jest"
+    "@suncin/typescript/all"
   ]
 }
 ```
 
-Note: `typescript/all` include all the previous configs.
+Note: `@suncin/typescript/all` include `@suncin/typescript/security` and `@suncin/typescript/jest` configs.
 
 ## Example configuration
 
 ```json
 {
-  "extends": ["typescript"],
+  "extends": ["@suncin/typescript/all"],
   "plugins": ["filenames"],
   "env": {
     "node": true
