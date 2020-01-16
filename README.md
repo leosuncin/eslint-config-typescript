@@ -21,6 +21,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/leosuncin/eslint-config-typescript.svg)](https://greenkeeper.io/)
+
 ```sh
 npm install --dev @suncin/eslint-config-typescript
 ```
